@@ -16,3 +16,5 @@ artists = artist_repository.all()
 # List them out
 for artist in artists:
     print(artist)
+
+print(artist_repository.find(1))
